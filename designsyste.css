@@ -1,0 +1,32 @@
+/* create a design system */
+
+:root {
+  --color-primary: #ff5b27;
+  --color-secondary: #ffded4;
+  --color-border: #e8e8e8;
+  --color-backgorund: #ffffff;
+  --color-text: #333333;
+  --color-card: #fbfaf9;
+  --color-muted: #e8e8e8;
+  --color-muted-foreground: #949494;
+  --color-accent: #ff5b27;
+}
+
+/* for dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #ff7a42;
+    --color-secondary: #2b2a26;
+    --color-secondary-foreground: #ffd8c7;
+    --color-primary-bg: #ffd8c7;
+    --color-border: #e8e8e8;
+    --color-backgorund: #0b0d10;
+    --color-text: #ffffff;
+    --color-foreground: #e6eef7;
+    --color-card: #0f1214;
+    --color-card-foreground: #e6eef7;
+    --color-muted: #1a1c1f;
+    --color-muted-foreground: #9aa3ad;
+    --color-accent: #ff5b27;
+  }
+}
