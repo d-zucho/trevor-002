@@ -7,7 +7,7 @@ import MobileMenu from './MobileMenu'
 
 const Header = () => {
   return (
-    <header className='h-20 flex items-center px-2 sm:px-6 md:px-12'>
+    <header className='h-20 flex items-center'>
       <nav className='flex items-center justify-between w-full'>
         <div className='flex items-center gap-7'>
           <Link href='/' className='flex items-center gap-2 font-bold text-lg'>
