@@ -47,7 +47,7 @@ const Hero = () => {
                 </Link>
               </div>
             </div>
-            <div className='flex gap-15 mt-12 '>
+            <div className='flex gap-15 mt-12 max-sm:justify-center'>
               {/* STATISTICS */}
               {HERO_CARDS.map((stat, index) => (
                 <div key={index} className='max-w-18.75'>
