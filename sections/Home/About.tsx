@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <section className='bg-muted-bg max-w-screen py-20'>
+    <section className='bg-muted-bg max-w-screen py-32'>
       <MaxWidthWrapper>
         <div className='flex flex-col items-center sm:flex-row gap-10'>
           <div className='lg:flex-1 max-w-full w-112.5'>
@@ -25,7 +25,7 @@ const About = () => {
             <h2 className='section-title max-sm:hidden'>
               More than Just a Trainer
             </h2>
-            <div className='text-muted-foreground flex flex-col gap-4 mt-4 max-sm:max-w-md max-w-lg lg:max-w-prose'>
+            <div className='text-muted-foreground flex flex-col gap-4 max-sm:mt-0 mt-5 max-sm:max-w-md max-w-lg lg:max-w-prose'>
               <p className='mx-auto'>
                 My philosophy is simple: fitness should enhance your life, not
                 consume it. I’ve spent the last decade refining methods that

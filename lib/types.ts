@@ -1,3 +1,4 @@
+import { title } from 'process'
 import { LucideIcon } from 'lucide-react'
 
 export type TNav_Item = {
@@ -10,4 +11,10 @@ export type TSocial = {
   href: string
   icon: string
   iconFill?: string
+}
+
+export type TTrainingProgram = {
+  icon: LucideIcon
+  title: string
+  description: string
 }

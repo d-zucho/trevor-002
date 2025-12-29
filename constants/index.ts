@@ -1,5 +1,5 @@
-import { TNav_Item } from '@/lib/types'
-import { Star, Users } from 'lucide-react'
+import { TNav_Item, TTrainingProgram } from '@/lib/types'
+import { Dumbbell, ForkKnifeCrossed, Laptop, Star, Users } from 'lucide-react'
 import { title } from 'process'
 
 export const NAV_LINKS: TNav_Item[] = [
@@ -81,5 +81,26 @@ export const HOME_ABOUT_STATS = [
     icon: Users,
     title: 'Community',
     info: 'Supportive Network',
+  },
+]
+
+export const TRAINING_PROGRAMS: TTrainingProgram[] = [
+  {
+    icon: Dumbbell,
+    title: '1:1 Personal Training',
+    description:
+      'Hands-on coaching in a private studio. Perfect for mastering form and pushing limits safely.',
+  },
+  {
+    icon: Laptop,
+    title: 'Online Coaching',
+    description:
+      'Custom work-out delivered to your phone with weekly check-ins and video form reviews.',
+  },
+  {
+    icon: ForkKnifeCrossed,
+    title: 'Nutrition Planning',
+    description:
+      'Sustainable macronutrient plans tailored to your tastes. No restrictive fad diets.',
   },
 ]

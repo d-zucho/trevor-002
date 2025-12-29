@@ -50,6 +50,7 @@ body {
   --radius-2xl: calc(var(--radius) + 8px);
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
+  --animate-wiggle: wiggle 0.75s ease-in-out infinite;
 }
 
 :root {
@@ -136,5 +137,15 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(4px);
   }
 }
