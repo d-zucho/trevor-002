@@ -7,7 +7,7 @@ import MobileMenu from './MobileMenu'
 
 const Header = () => {
   return (
-    <header className='h-20 flex items-center'>
+    <header className='h-20 flex items-center max-w-7xl mx-auto px-2 sm:px-6 md:px-12'>
       <nav className='flex items-center justify-between w-full'>
         <div className='flex items-center gap-7'>
           <Link href='/' className='flex items-center gap-2 font-bold text-lg'>
@@ -43,7 +43,7 @@ const Header = () => {
             href={'/contact'}
             className={buttonVariants({
               variant: 'default',
-              className: 'text-white',
+              className: 'text-white max-lg:hidden',
             })}
           >
             Book Free Consultation

@@ -1,4 +1,6 @@
 import { TNav_Item } from '@/lib/types'
+import { Star, Users } from 'lucide-react'
+import { title } from 'process'
 
 export const NAV_LINKS: TNav_Item[] = [
   { label: 'Home', href: '/' },
@@ -51,5 +53,33 @@ export const SOCIALS = [
     label: 'Mail',
     href: '/',
     icon: '/mail.svg',
+  },
+]
+
+export const HERO_CARDS = [
+  {
+    title: '10+',
+    subtitle: 'Years Experience',
+  },
+  {
+    title: '500+',
+    subtitle: 'Transformed Clients',
+  },
+  {
+    title: 'NASM',
+    subtitle: 'Certified',
+  },
+]
+
+export const HOME_ABOUT_STATS = [
+  {
+    icon: Star,
+    title: 'Top Rated',
+    info: '5-Star Average',
+  },
+  {
+    icon: Users,
+    title: 'Community',
+    info: 'Supportive Network',
   },
 ]
