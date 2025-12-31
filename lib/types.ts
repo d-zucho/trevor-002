@@ -18,3 +18,11 @@ export type TTrainingProgram = {
   title: string
   description: string
 }
+
+export type TPricingOption = {
+  option: string
+  price: string
+  description: string
+  stats: string[]
+  favorite: boolean
+}

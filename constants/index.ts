@@ -1,4 +1,4 @@
-import { TNav_Item, TTrainingProgram } from '@/lib/types'
+import { TNav_Item, TPricingOption, TTrainingProgram } from '@/lib/types'
 import { Dumbbell, ForkKnifeCrossed, Laptop, Star, Users } from 'lucide-react'
 import { title } from 'process'
 
@@ -102,5 +102,43 @@ export const TRAINING_PROGRAMS: TTrainingProgram[] = [
     title: 'Nutrition Planning',
     description:
       'Sustainable macronutrient plans tailored to your tastes. No restrictive fad diets.',
+  },
+]
+
+export const PRICING_OPTIONS: TPricingOption[] = [
+  {
+    option: 'Basic Online',
+    price: '$199/mo',
+    description: 'Self-guided plan with monthly updated.',
+    stats: [
+      'Customized Workout App',
+      'Monthly Program Updates',
+      'Macro Guidance',
+    ],
+    favorite: false,
+  },
+  {
+    option: 'Hybrid Coaching',
+    price: '$349/mo',
+    description: 'Weekly check-ins and video form analysis',
+    stats: [
+      'All Basic Features',
+      'Weekly Check-in Calls',
+      'Form Correction Videos',
+      'Direct Message Support',
+    ],
+    favorite: true,
+  },
+  {
+    option: '1:1 In-Person',
+    price: '$99/session',
+    description: 'Hands on guidance in the studio',
+    stats: [
+      '60-Minute Sessions',
+      'Real Time Feedback',
+      'Assisted Stretching',
+      'Nutrition Plan Included',
+    ],
+    favorite: false,
   },
 ]
