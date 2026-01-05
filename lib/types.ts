@@ -26,3 +26,8 @@ export type TPricingOption = {
   stats: string[]
   favorite: boolean
 }
+
+export type TContactInfo = {
+  icon: LucideIcon
+  text: string
+}

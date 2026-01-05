@@ -1,8 +1,8 @@
 import About from '@/sections/Home/About'
+import ContactSection from '@/sections/Home/Contact'
 import Hero from '@/sections/Home/Hero'
 import Pricing from '@/sections/Home/Pricing'
 import ProgramsSection from '@/sections/Home/Programs'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <About />
       <ProgramsSection />
       <Pricing />
+      <ContactSection />
     </div>
   )
 }

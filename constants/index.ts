@@ -1,6 +1,19 @@
-import { TNav_Item, TPricingOption, TTrainingProgram } from '@/lib/types'
-import { Dumbbell, ForkKnifeCrossed, Laptop, Star, Users } from 'lucide-react'
-import { title } from 'process'
+import {
+  TContactInfo,
+  TNav_Item,
+  TPricingOption,
+  TTrainingProgram,
+} from '@/lib/types'
+import {
+  Dumbbell,
+  ForkKnifeCrossed,
+  Laptop,
+  Mail,
+  MapPin,
+  Phone,
+  Star,
+  Users,
+} from 'lucide-react'
 
 export const NAV_LINKS: TNav_Item[] = [
   { label: 'Home', href: '/' },
@@ -142,3 +155,42 @@ export const PRICING_OPTIONS: TPricingOption[] = [
     favorite: false,
   },
 ]
+
+export const CONTACT_INFO: TContactInfo[] = [
+  {
+    icon: Mail,
+    text: 'trevor1234@gmail.com',
+  },
+  {
+    icon: Phone,
+    text: '+1 (999) 123-4567',
+  },
+  {
+    icon: MapPin,
+    text: 'Orange County, CA (and Worldwide Online)',
+  },
+]
+
+export const FOOTER_LINKS = {
+  Navigation: [
+    { label: 'Home', href: '/' },
+    { label: 'Services', href: '/' },
+    { label: 'Results', href: '/' },
+  ],
+  Legal: [
+    { label: 'Privacy Policy', href: '/' },
+    { label: 'Terms of Service', href: '/' },
+  ],
+  social: [
+    {
+      icon: '/instagram.svg',
+      label: 'instagram',
+      href: '/',
+    },
+    {
+      icon: '/x.svg',
+      label: 'X',
+      href: '/',
+    },
+  ],
+}
